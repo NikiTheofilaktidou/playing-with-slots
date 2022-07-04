@@ -1,15 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <contained-context>
+    Hello World!!!! c:
+  </contained-context>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ContainedContext from './components/ContainedContext.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ContainedContext
   }
 }
 </script>
